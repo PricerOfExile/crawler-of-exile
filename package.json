@@ -1,0 +1,21 @@
+{
+  "name": "crawler-of-exile",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=crawler-of-exile:* node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "feed": "^4.2.2",
+    "html-entities": "^2.4.0",
+    "morgan": "~1.9.1",
+    "sanitize": "^2.1.2",
+    "sanitize-html": "^2.11.0",
+    "string-sanitizer": "^2.0.2",
+    "xml-sanitizer": "^1.2.9"
+  }
+}
